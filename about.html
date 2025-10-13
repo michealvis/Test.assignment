@@ -8,19 +8,25 @@
 <style>
 header{
     border: 10px;
-    background-color: black;
-    color: white;
+    background-color: orange;
+    color: black;
     padding: 2%;
 }
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: orange;
+  background-color: black;
+  color: white;
 }
 
 .video-grid {
   overflow: hidden; 
   padding: 2px;
+}
+
+#frame{
+  background-color: orange;
+  color: black;
 }
 
 .video-box {
@@ -32,6 +38,7 @@ body {
     box-sizing: border-box;
     float: left;
     height: 30%;
+    border-color: orange;
 }
 
 .video-box img {
@@ -66,9 +73,10 @@ body {
 
 .short-box {
   float: right;
-  width: 14%;       
+  width: 14%;    
+  height: 14%;   
   margin: 1%;
-  background: black;
+  background: orange;
   border-radius: 6px;
   padding: 2px;
   box-sizing: border-box;
@@ -76,10 +84,10 @@ body {
 
 .short-box img {
   width: 100%;
-  height: 200px;
+  height: 100px;
   border-radius: 2px;
   text-align: center;
-  border-color: black;
+  border-color: orange;
 }
 </style>
 </head>
@@ -91,7 +99,7 @@ body {
 </header>
     <h2>Our Mission</h2>
     <p>Our mission is simple: to provide fast, reliable, and affordable taxi rides to everyone in Awka. We are committed to ensuring that our customers enjoy a stress-free travel experience whenever they ride with us. At iDrive Awka, we put safety, comfort, and punctuality first.</p>
-<iframe src="map.html" frameborder="20" width="500vw">googlemap.com"></iframe>
+<iframe id="frame" src="map.html" frameborder="20" width="500vw">googlemap.com"></iframe>
     <h2>Why Choose Us?</h2>
     <p>We are not just another taxi service. iDrive Awka stands out because of our well-trained drivers, clean vehicles, fair pricing, and round-the-clock availability. Whether you’re going to work, school, a party, or the airport, you can trust us to get you there on time and in comfort.</p>
 
